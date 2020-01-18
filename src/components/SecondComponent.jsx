@@ -6,4 +6,4 @@ const second = () =>
         <h1>Second Component with arrow function</h1>
     </div>
 
-export default second;
+export default second;      
