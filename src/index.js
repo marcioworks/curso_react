@@ -6,6 +6,9 @@ import ThirdComponent from './components/ThirdComponent'
 import { CompA, CompB } from './components/MultComponents'
 import Family from './components/Family'
 import Son from './components/SonComponent'
+import Father from './components/Father'
+
+
 const element = document.getElementById('root')
 ReactDOM.render(
     <div>
@@ -18,6 +21,7 @@ ReactDOM.render(
             <Son name="Jonh"/>
             <Son name="Joane"/>
         </Family>
+        <Father/>
     </div>
     , element)
 
