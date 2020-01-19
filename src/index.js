@@ -8,11 +8,13 @@ import React from 'react'
 // import SonComponent from './components/SonComponent'
 // import Father from './components/Father'
 import ClassComponent from './components/ClassComponent'
+import CountComponent from './components/CountComponent'
 
 const element = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <ClassComponent valor="Sou um component de classe"/>
+        <ClassComponent valor="I'm a Class Component" />
+        <CountComponent count={0}/>
         {/* <FirstComponent />
         <SecondComponent />
         <ThirdComponent valor="estou usando props" />
@@ -24,5 +26,5 @@ ReactDOM.render(
         </Family>
         <Father/> */}
     </div>
-    , element)
-
+        , element)
+    
